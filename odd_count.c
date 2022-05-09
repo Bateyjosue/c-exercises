@@ -4,13 +4,13 @@
 long odd_count(long n)
 {
     long i;
-    int count;
+    long count;
 
-    i = 1;
+    i = 0;
     count = 0;
     while (i < n)
     {
-        if (!(i % 2 == 0))
+        if (i % 3 == 0)
         {
             count+= 1;
         }
